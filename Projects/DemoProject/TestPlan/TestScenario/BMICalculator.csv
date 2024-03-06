@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the URL,Open,@http://www.calculator.net/,,
+2,Browser,Wait For Load,waitForPageLoaded,,,
+3,BMI,Click the [<Object>],clickInputByText,@https://www.calculator.net/,,Calculate the ref

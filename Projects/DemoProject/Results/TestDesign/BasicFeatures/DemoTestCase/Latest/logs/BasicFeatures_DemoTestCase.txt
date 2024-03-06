@@ -1,0 +1,59 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.7
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Feb 28 12:59:01 IST 2024
+
+Scenario         :  [BasicFeatures]
+TestCase         :  [DemoTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:URL_Global:URL  |  Condition:  | @28-Feb-2024 12:59:04.004
+[DONE]   | Opened Url: https://www.calculator.net/
+
+
+===================================================================================================
+
+Step:2  |  Object:firstname  |  Action:Click  |  Input:  |  Condition:  | @28-Feb-2024 12:59:45.045
+[FAIL]   | Seems Like the Element [firstname] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:3  |  Object:firstname  |  Action:Set  |  Input:@Cognizant  |  Condition:  | @28-Feb-2024 13:00:26.026
+[FAIL]   | Seems Like the Element [firstname] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:4  |  Object:lastname  |  Action:Click  |  Input:  |  Condition:  | @28-Feb-2024 13:01:07.007
+[FAIL]   | Seems Like the Element [lastname] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:5  |  Object:lastname  |  Action:Set  |  Input:@Intelligent Test Scripter  |  Condition:  | @28-Feb-2024 13:01:17.017
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : BasicFeatures:DemoTestCase
+Executed Steps       : 5
+Passed Steps         : 1
+Failed Steps         : 4
+Time Taken           : 00:02:15
+---------------------------------------------------
+

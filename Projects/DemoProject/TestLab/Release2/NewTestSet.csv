@@ -1,0 +1,4 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,TestScenario,SuccessfullLogin,Single,Passed,Chrome,Default,WINDOWS
+false,TestScenario,LoginPassword Error,Single,Failed,Chrome,Default,WINDOWS
+false,TestScenario,IncorrectUsername,Single,Failed,Chrome,Default,WINDOWS

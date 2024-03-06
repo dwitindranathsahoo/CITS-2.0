@@ -1,0 +1,5 @@
+GlobalDataID,URL,Discount,timeToWait
+"#gd1",@https://www.calculator.net/,,
+"#gd2",@https://www.calculator.net/,,
+"#discount",,25,
+"#slowTime",,,800

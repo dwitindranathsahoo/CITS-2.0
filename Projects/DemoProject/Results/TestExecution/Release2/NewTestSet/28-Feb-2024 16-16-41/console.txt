@@ -1,0 +1,151 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.7
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Feb 28 16:16:41 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:TestScenario] [TestCase: SuccessfullLogin] [Description: SuccessfullLogin] [Browser: Chrome] [BrowserVersion: Default] [Platform: WINDOWS][ExistingBrowser: false]
+[Scenario:TestScenario] [TestCase: LoginPassword Error] [Description: LoginPassword Error] [Browser: Chrome] [BrowserVersion: Default] [Platform: WINDOWS][ExistingBrowser: false]
+[Scenario:TestScenario] [TestCase: IncorrectUsername] [Description: IncorrectUsername] [Browser: Chrome] [BrowserVersion: Default] [Platform: WINDOWS][ExistingBrowser: false]
+----------------------------------------------------------
+[3] TestCases selected for execution from [//Release2/NewTestSet]
+----------------------------------------------------------
+Initializing Report
+[Thread-6] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : NewTestSet
+ApiLink not available!!
+testset : NewTestSet
+Run Manager true
+Continue Execution true
+Running Iteration 1
+Step:1   | Object: Browser | Action: Open | Input: @https://www.calculator.net/ | Conditon:  | @28-Feb-2024 16:16:41.041
+Running Iteration 1
+Step:0   | Object:  | Action:  | Input:  | Conditon:  | @28-Feb-2024 16:16:41.041
+Running Iteration 1
+[ERROR][Could not find Action:]
+[DEBUG]   | [Could not find Action]
+Step:0   | Object:  | Action:  | Input:  | Conditon:  | @28-Feb-2024 16:16:41.041
+
+===================================================================================================
+
+[ERROR][Could not find Action:]
+[DEBUG]   | [Could not find Action]
+
+===================================================================================================
+
+
+---------------------------------------------------
+
+---------------------------------------------------
+Testcase Name        : TestScenario:IncorrectUsername
+Testcase Name        : TestScenario:LoginPassword Error
+Executed Steps       : 1
+Executed Steps       : 1
+Passed Steps         : 0
+Passed Steps         : 0
+Failed Steps         : 1
+Failed Steps         : 1
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+[DONE]   | Opened Url: https://www.calculator.net/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: waitForPageLoaded | Input:  | Conditon:  | @28-Feb-2024 16:16:45.045
+[DONE]   | Page load completed in stipulated time
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : TestScenario:SuccessfullLogin
+Executed Steps       : 2
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:04
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Wed Feb 28 16:16:45 IST 2024
+[Thread-6] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\28-Feb-2024 16-16-41\extent.html
+[Thread-6] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\28-Feb-2024 16-16-41\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 28-Feb-2024 16-16-41
+Executed TestCases   : 3
+Passed TestCases     : 1
+Failed TestCases     : 2
+Time Taken           : 00:00:04
+ReportPath           : file:///C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\28-Feb-2024 16-16-41\summary.html
+-----------------------------------------------------
+[Thread-6] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\28-Feb-2024 16-16-41\extent.html
+[Thread-6] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\28-Feb-2024 16-16-41\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 28-Feb-2024 16-16-41
+Executed TestCases   : 3
+Passed TestCases     : 1
+Failed TestCases     : 2
+Time Taken           : 00:00:04
+ReportPath           : file:///C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\28-Feb-2024 16-16-41\summary.html
+-----------------------------------------------------
+2024-02-28 16:16:46:02S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\dwiti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baa52972b9247af7c7637b2606ffa2b0
+*** Element info: {Using=xpath, value=//div[3]/div/ul}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:328)
+	at org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:325)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:359)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Couldn't find Object 'BingMenu' in stipulated Time '10' Seconds

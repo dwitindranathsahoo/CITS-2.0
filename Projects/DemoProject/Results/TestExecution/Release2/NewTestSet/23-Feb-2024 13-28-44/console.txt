@@ -1,0 +1,508 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.7
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Feb 23 13:28:44 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:TestScenario] [TestCase: SuccessfullLogin] [Description: SuccessfullLogin] [Browser: Chrome] [BrowserVersion: 122.0.6261.70] [Platform: WINDOWS][ExistingBrowser: false]
+[Scenario:TestScenario] [TestCase: LoginPassword Error] [Description: LoginPassword Error] [Browser: Chrome] [BrowserVersion: 122.0.6261.70] [Platform: WINDOWS][ExistingBrowser: false]
+[Scenario:TestScenario] [TestCase: IncorrectUsername] [Description: IncorrectUsername] [Browser: Chrome] [BrowserVersion: 122.0.6261.70] [Platform: WINDOWS][ExistingBrowser: false]
+----------------------------------------------------------
+[3] TestCases selected for execution from [//Release2/NewTestSet]
+----------------------------------------------------------
+Initializing Report
+[Thread-16] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : NewTestSet
+Run Manager true
+Continue Execution true
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 31608
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDrStarting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 64474
+Only local connections are allowed.
+Please see hiver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 23948
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ttps://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started suChromeDriver was startChromeDriver waccessfully.
+s started successfully.
+ed successfully.
+2024-02-23 13:28:49:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:189)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:168)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:158)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:155)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:125)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[DEBUG]   | session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+
+===================================================================================================
+
+2024-02-23 13:28:49:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task run:Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:159)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:192)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:180)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:137)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-02-23 13:28:49:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:189)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:168)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:158)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:155)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:125)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[DEBUG]   | session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+
+===================================================================================================
+
+2024-02-23 13:28:49:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task run:Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:159)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:192)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:180)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:137)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+---------------------------------------------------
+Testcase Name        : TestScenario:SuccessfullLogin
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:04
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+
+---------------------------------------------------
+Testcase Name        : TestScenario:LoginPassword Error
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:04
+-----------------------------------------------------
+
+2024-02-23 13:28:49:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:189)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:168)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:158)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:155)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:125)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[DEBUG]   | session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BG07BFE', ip: '192.168.1.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006E69A3+2582947]
+	Ordinal0 [0x0067A6D1+2139857]
+	Ordinal0 [0x00573A98+1063576]
+	Ordinal0 [0x005933B8+1192888]
+	Ordinal0 [0x0058F235+1176117]
+	Ordinal0 [0x0058C9E1+1165793]
+	Ordinal0 [0x005BCFFF+1363967]
+	Ordinal0 [0x005BCC2A+1362986]
+	Ordinal0 [0x005B8366+1344358]
+	Ordinal0 [0x00595176+1200502]
+	Ordinal0 [0x00596066+1204326]
+	GetHandleVerifier [0x0088BE02+1675858]
+	GetHandleVerifier [0x0094036C+2414524]
+	GetHandleVerifier [0x0077BB01+560977]
+	GetHandleVerifier [0x0077A8D3+556323]
+	Ordinal0 [0x0068020E+2163214]
+	Ordinal0 [0x00685078+2183288]
+	Ordinal0 [0x006851C0+2183616]
+	Ordinal0 [0x0068EE1C+2223644]
+	BaseThreadInitThunk [0x76FF7BA9+25]
+	RtlInitializeExceptionChain [0x771DBD2B+107]
+	RtlClearBits [0x771DBCAF+191]
+
+
+===================================================================================================
+
+2024-02-23 13:28:49:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task run:Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:159)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:192)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:180)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:137)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+
+---------------------------------------------------
+Testcase Name        : TestScenario:IncorrectUsername
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:04
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Fri Feb 23 13:28:49 IST 2024
+[Thread-16] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\23-Feb-2024 13-28-44\extent.html
+[Thread-16] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\23-Feb-2024 13-28-44\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 23-Feb-2024 13-28-44
+Executed TestCases   : 3
+Passed TestCases     : 0
+Failed TestCases     : 3
+Time Taken           : 00:00:05
+ReportPath           : file:///C:\Users\dwiti\Downloads\cognizant-intelligent-test-scripter-2.0-setup12\cognizant-intelligent-test-scripter-2.0\Projects\DemoProject\Results\TestExecution\Release2\NewTestSet\23-Feb-2024 13-28-44\summary.html
+-----------------------------------------------------
